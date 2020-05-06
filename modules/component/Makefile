@@ -20,3 +20,7 @@ component/deployment/status:
 ## Undo the deployment $(DEPLOYMENT_NAME)
 component/deployment/rollout/undo:
 	 oc -n $(COMPONENT_NAMESPACE) rollout undo $(DEPLOYMENT_NAME)
+
+## Unit tests
+component/test/unit:
+	echo "Place Unit Tests here"
